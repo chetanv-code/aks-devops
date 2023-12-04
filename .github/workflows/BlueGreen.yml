@@ -46,10 +46,7 @@ jobs:
         with:
           cluster-name: ${{ env.AKS_CLUSTER_NAME }}
           resource-group: ${{ env.RESOURCE_GROUP }}
-
           
-          #
-      
       # Runs a set of commands using the runners shell
       - name: Deploy app
         uses: azure/k8s-deploy@v4
